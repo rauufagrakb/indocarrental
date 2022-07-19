@@ -1,0 +1,45 @@
+#banner {
+    /* background: url(assets/image.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#keterangan p {
+    text-align: center;
+}
+
+#keterangan {
+    justify-content: center;
+}
+
+.col a .card {
+    transition: transform .2s;
+}
+
+.col a {
+    text-decoration: none;
+    color: black;
+}
+
+.col a .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.02);
+    z-index: 100;
+}
+
+@media (min-width: 992px) {
+    #keterangan p {
+        text-align: left;
+    }
+
+    #keterangan {
+        justify-content: left;
+        align-items: center;
+    }
+
+    .text-car {
+        margin-right: 50px;
+        text-align: end;
+    }
+}
